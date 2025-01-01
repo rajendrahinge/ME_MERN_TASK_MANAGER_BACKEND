@@ -6,7 +6,8 @@ const taskRoutes = require("./routes/tasks.routes");
 
 const app = express();
 const PORT = '8082';
-const DB_URL = "mongodb://127.0.0.1:27017/task-manager";
+// const DB_URL = "mongodb://127.0.0.1:27017/task-manager";
+const DB_URL = "mongodb+srv://rajendrahinge24:EYAR0dYkv7gAdFMW@cluster0.niduy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 
 mongoose.connect(DB_URL, {
